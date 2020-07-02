@@ -3,8 +3,7 @@
     <img alt="Vue logo" src="../assets/logo.png">
 
     <div id="nav">
-      <!-- <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link> -->
+      <router-link to="/calendar">日历</router-link>
     </div>
   </div>
 </template>
@@ -26,6 +25,7 @@ export default {
 #nav a {
   font-weight: bold;
   color: #2c3e50;
+  display: block;
 }
 
 #nav a.router-link-exact-active {
